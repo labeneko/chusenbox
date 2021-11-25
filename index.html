@@ -1,31 +1,28 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" class="h-100">
 <head>
   <meta charset="UTF-8">
   <title>抽選箱</title>
-  <link rel="stylesheet",
-  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
-  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm",
-  crossorigin="anonymous">
+  <link rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm", crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <div class="backmask">
-    <section class="choosebox container">
-      <h1 class="btn btn-outline-info rounded-circle m-5 chooser ">抽選</h1>
-      <div class="content">
-        <h1 class="title">ぼくの単語帳</h1>
-        <img class="image img-thumbnail mb-3" src="img/1.PNG">
-        <h4 class="name">take</h4>
-        <p class="desc">フォルダーを作成し、自由に単語を作成、整理できるアプリです。作った単語を使ってゲームをすることもできます。</p>
-        <a class="btn btn-primary play" href="https://takeharu7-51.github.io/My-Vocabulary-Book/">あそぶ</a>
-        <a class="btn btn-success src" href="https://github.com/Takeharu7-51/My-Vocabulary-Book">なかみ</a>
+<body id="choosebox" class="h-100">
+  <div class="h-100 text-center" style="background-color: #fffd;">
+    <section class="container">
+      <div id="chooser" class="btn btn-outline-info m-5 font-weight-bold">抽選</div>
+      <div id="content" class="m-auto w-75">
+        <h1 id="title" class="font-weight-bold"></h1>
+        <img id="image" class="img-thumbnail mb-3" src="img/1.PNG">
+        <h4 id="name" class="font-weight-bold"></h4>
+        <p id="desc"></p>
+        <a id="play" class="btn btn-primary" href="" target="_blank">あそぶ</a>
+        <a id="src" class="btn btn-success d-none" href="" target="_blank">なかみをみる</a>
       </div>
     </section>
   </div>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js",
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl",
-    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js", integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl", crossorigin="anonymous"></script>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

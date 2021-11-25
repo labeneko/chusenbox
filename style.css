@@ -1,6 +1,3 @@
-html {
-  height: 100%;
-}
 body {
   font-family: "Helvetica Neue",
   Arial,
@@ -10,41 +7,12 @@ body {
   sans-serif;
   color: #444;
   background: center / contain no-repeat url(img/1.PNG);
-  height: 100%;
 }
-.backmask {
-  background-color: #fffD;
-  height: 100%;
-  text-align: center;
-}
-
-.chooser {
+#chooser {
   font-size: 30pt;
-  padding: 30px;
-  font-weight: bold;
+  padding: 10px 30px;
 }
-
-.content {
-  width: 80%;
-  margin: auto;
-}
-
-.title {
-
-}
-.image {
-  width: 500px;
-  border: 
-  border-radius: 10px;
-}
-.name {
-
-}
-.desc {
-
-}
-.play {
-}
-.src {
-
+#image {
+  max-width: 500px;
+  max-height: 300px;
 }
