@@ -9,7 +9,7 @@ const datas = [
   },
   {
     "id": 2,
-    "name": "8ha (ハチハ)",
+    "name": "8ha",
     "title": "ホッケーゲーム",
     "desc": "左のバーは[W]で上・[S]で下 右のバーは上下キーで動きます。 ポイントが5PT取れたら勝ちです。",
     "play": "https://yasuhitodesu.github.io/hockey/hockey.html",
@@ -57,23 +57,23 @@ const datas = [
   },
   {
     "id": 8,
-    "name": "BlueZhiaar（ブルージアー）",
-    "title": "呟く生き物（つぶやくいきもの）",
+    "name": "BlueZhiaar",
+    "title": "呟く生き物",
     "desc": "ページの中をうろうろしている生き物がいます。生き物は言葉の組み合わせをランダムに呟いています。それを眺めて楽しみます。",
     "play": "https://bluezhiaar.github.io/wanderer/description.html",
     "src": "https://github.com/BlueZhiaar/wanderer/tree/gh-pages"
   },
   {
     "id": 9,
-    "name": "marukun（まるくん）",
-    "title": "aqua-bot（あくあぼっと）",
+    "name": "marukun",
+    "title": "aqua-bot",
     "desc": "使い方 チャット画面を開いたら、テキストを打ち込んでみましょう。あくたんが○○って言ったよ！と返してくれます。また、特定のワードにはリアクションがあります。 こんあくあー！ 挨拶して あくたんの動画が見たい あくたんのTwitter教えて 誕生日はいつ？ パパは誰？？ 体重を教えて 自己紹介して グッズが買いたい あくたんの曲が聞きたい",
     "play": "https://marukun712.github.io/akua-bot/client/",
     "src": "https://github.com/marukun712/akua-bot"
   },
   {
     "id": 10,
-    "name": "marotyuket（まろちゅけっと）",
+    "name": "marotyuket",
     "title": "FizzBuzzで遊ぼう",
     "desc": "FizzBuzzゲームです。1から１００までの数字が出てくるので3で割り切れる時はFizz、5で割り切れる時はBuzz、15で割り切れる時はFizzBuzzを言っていきます。間違えたら負けです.",
     "play": "https://marotyuket.github.io/FizzBuzz/index1.html",
@@ -82,7 +82,7 @@ const datas = [
   {
     "id": 11,
     "name": "satsukizzz",
-    "title": "phaser倉庫番（ふぇいざーそうこばん）",
+    "title": "phaser倉庫番",
     "desc": "倉庫番で、WASDで上下左右に動き、completedが出たら終了です(提出時点で1マップ)。 ブラウザJavaScriptだけで動く2Dゲームフレームワークphaser3を使い、初めてのゲームを作りました。",
     "play": "https://satsukizzz.github.io/sokoban/",
     "src": "https://github.com/satsukizzz/sokoban"
@@ -113,16 +113,16 @@ const datas = [
   },
   {
     "id": 15,
-    "name": "nakako（なかこ）",
-    "title": "猫のお掃除大作戦（ねこのおそうじだいさくせん）",
+    "name": "nakako",
+    "title": "猫のお掃除大作戦",
     "desc": "上下キーを使ってネコを操作。 家具や植物を避けながら、ごみをたくさん拾ってナワバリの平和を守ろう！",
     "play": "https://nakako.github.io/catCleaner/catCleaner.html",
     "src": "https://github.com/nakako/catCleaner"
   },
   {
     "id": 16,
-    "name": "parakeet（とり）",
-    "title": "Notes（メモ）",
+    "name": "parakeet",
+    "title": "Notes",
     "desc": "IndexedDBを使用したメモアプリです。画像や動画などのファイルも添付できます。",
     "play": "https://parakeet15.github.io/notes/",
     "src": "https://github.com/parakeet15/notes"

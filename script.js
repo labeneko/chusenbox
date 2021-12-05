@@ -8,7 +8,7 @@ function choose() {
   $("#desc").text(choosen.desc);
   $("#play").attr("href", choosen.play);
   $("#src").attr("href", choosen.src);
-  $("#choosebox").css("background-image", `url("img/${choosen.id}.PNG")`);
+  $("#choosebox").css("background-image", `url("img/back.PNG")`);
 }
 
 function roll(sec) {
@@ -23,7 +23,8 @@ function roll(sec) {
   }
 }
 
-$("#chooser").on("click", () => {
+$("#choose").on("click", () => {
+  $("#head").hide();
   $("#content").show();
   $("#play").hide();
   $("#choosebox").css("color", `#444`);
