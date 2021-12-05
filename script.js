@@ -2,6 +2,7 @@ $("#content").hide();
 
 function choose() {
   const choosen = datas[Math.floor(Math.random() * datas.length)];
+  $("#id").text(choosen.id);
   $("#title").text(choosen.title);
   $("#image").attr("src", `img/${choosen.id}.PNG`);
   $("#name").text(choosen.name);
@@ -24,6 +25,8 @@ function roll(sec) {
 }
 
 $("#choose").on("click", () => {
+  datas = datas.filter(e => e.id != $("#id").text() );
+  console.log(datas.length);
   $("#head").hide();
   $("#content").show();
   $("#play").hide();
