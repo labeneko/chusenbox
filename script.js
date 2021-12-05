@@ -8,7 +8,6 @@ function choose() {
   $("#desc").text(choosen.desc);
   $("#play").attr("href", choosen.play);
   $("#src").attr("href", choosen.src);
-  $("#choosebox").css("background-image", `url("img/back.PNG")`);
 }
 
 function roll(sec) {
@@ -19,6 +18,7 @@ function roll(sec) {
     }, sec < 10 ? 10 : sec);
   } else {
     $("#choosebox").css("color", `#44A`);
+    $("#title").css("background-color", `#44A`);
     $("#play").show();
   }
 }
@@ -27,6 +27,6 @@ $("#choose").on("click", () => {
   $("#head").hide();
   $("#content").show();
   $("#play").hide();
-  $("#choosebox").css("color", `#444`);
+  $("#title").css("background-color", `#17a2b8`);
   roll(0.5);
 });
