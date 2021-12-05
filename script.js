@@ -26,10 +26,10 @@ function roll(sec) {
 
 $("#choose").on("click", () => {
   datas = datas.filter(e => e.id != $("#id").text() );
-  console.log(datas.length);
   $("#head").hide();
   $("#content").show();
   $("#play").hide();
+  $("#body").css("color", `#444`);
   $("#title").css("background-color", `#17a2b8`);
   roll(0.5);
 });
