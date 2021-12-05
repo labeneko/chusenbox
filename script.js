@@ -18,8 +18,9 @@ function roll(sec) {
       roll(sec * 1.08);
     }, sec < 10 ? 10 : sec);
   } else {
-    $("#choosebox").css("color", `#44A`);
+    $("body").css("color", `#44A`);
     $("#title").css("background-color", `#44A`);
+    $("#choose").prop('disabled', false);
     $("#play").show();
   }
 }
@@ -29,7 +30,8 @@ $("#choose").on("click", () => {
   $("#head").hide();
   $("#content").show();
   $("#play").hide();
-  $("#body").css("color", `#444`);
-  $("#title").css("background-color", `#17a2b8`);
+  $("body").css("color", `#444`);
+  $("#choose").prop('disabled', true);
+  $("#title").css("background-color", `#444`);
   roll(0.5);
 });
