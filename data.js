@@ -64,14 +64,6 @@ const datas = [
     "src": "https://github.com/BlueZhiaar/wanderer/tree/gh-pages"
   },
   {
-    "id": 9,
-    "name": "marukun",
-    "title": "aqua-bot",
-    "desc": "使い方 チャット画面を開いたら、テキストを打ち込んでみましょう。あくたんが○○って言ったよ！と返してくれます。",
-    "play": "https://marukun712.github.io/akua-bot/client/",
-    "src": "https://github.com/marukun712/akua-bot"
-  },
-  {
     "id": 10,
     "name": "marotyuket",
     "title": "FizzBuzzで遊ぼう",

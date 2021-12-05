@@ -9,7 +9,7 @@ body {
   sans-serif;
   color: #444;
   font-family: 'Mochiy Pop One', sans-serif;
-  background: center / cover no-repeat url("img/back.PNG");
+  background: center / cover no-repeat url("img/back.png");
 }
 #choose {
   font-size: 24pt;
