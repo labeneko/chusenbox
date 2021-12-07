@@ -48,7 +48,7 @@ $("#kakin_menu").on("click", () => {
 
 $("#kakin").on("click", () => {
   $("#kakin_box").hide();
-  maxSec = maxSec / 5;
+  maxSec = 0.5 + maxSec / 5;
   amount += 10000;
   $("#kakin_progress").show();
   $("#amount").text(amount);
