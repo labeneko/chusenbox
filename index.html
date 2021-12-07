@@ -8,9 +8,19 @@
 </head>
 <body id="choosebox" class="h-100">
   <div class="h-100 text-center">
-    <section class="container h-100 p-0" style="background-color: #fffe;">
+    <section id="main" class="container p-0" style="background-color: #fffe;">
+      <div id="kakin_wrapper">
+        <div id="kakin_menu">
+          <span id="kakin_progress" class="blink"><span id="amount">10000</span>円課金中</span>
+          <button id="kakin_menu_button" class="btn btn-outline-warning shake">課金</button>
+        </div>
+        <div id="kakin_box">
+          <span style="color: red">10000円</span>課金すると、<br>抽選結果をより早く表示します<br>
+          <button id="kakin" class="btn btn-outline-warning shake">課金する</button>
+        </div>
+      </div>
       <div id="chooser" class="p-4">
-        <h3 class="p-3">N予備校生の作品を</h3>
+        <h3 id="head_title" class="p-3">生徒の作品を</h3>
         <button id="choose" class="btn btn-outline-info shake">遊びたいよー</button>
       </div>
       <div id="content" class="m-auto w-100">
